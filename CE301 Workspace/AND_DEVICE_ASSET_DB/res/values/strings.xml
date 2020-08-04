@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Device Asset Database</string>
+    <string name="mapview_name">MapView</string>
+    
+    <string name="app_acknowledgements">.</string>
+	
+	<string name="app_copyright">Copyright A. Schillings, 2010</string>
+	
+	<string name="app_changelog">
+		Changelog:\n
+		·v0.0.1 Fist public release\n
+	</string>
+
+	<string name="app_notes" formatted="false">
+		Notes:\n
+		·Before you use this application, you need to download a copy of the Vendor ID Database.\nTo do that, Press Menu->Update DB. Keep in mind it is about 1.5MB.\n
+		·To perform a wildcard search, use the percentage sign (%). So typing "HT%" will search for all items which start with "HT".\n
+		·The search is case insensitive.\n
+	</string>
+	
+	<string name="label_export_cell_info">__Cell Info_______</string>
+	<string name="label_export_location_info">__Location Info_______</string>
+	
+	<string name="label_menu_update_db">Update DB</string>
+	<string name="label_menu_quit">Quit</string>
+	<string name="label_menu_about">About</string>
+	<string name="label_menu_export">Export</string>
+		
+	<string name="label_hide">Hide</string>
+	<string name="label_show">Show</string>
+		
+    <string name="main_title">Device Asset Database</string>
+    <string name="label_found">Found:</string>	
+	<string name="label_inventory_no">Invent#:</string>
+	<string name="label_barcode">Barcode:</string>
+	<string name="label_brand">Brand:</string>
+	<string name="label_model">Model:</string>
+	<string name="label_hostname">Hostname:</string>
+	<string name="label_room_name">Room:</string>
+	<string name="label_mac_address">MAC:</string>
+	<string name="label_ip_address">IP:</string>
+	
+	<string name="label_search">Search</string>
+	<string name="label_clear">Clear</string>
+	
+	<string name="label_no_results">No results</string>
+	
+	<string name="info_not_available">Not available.</string>
+	
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+        
+    <string name="db_dl_ok">Database successfully downloaded!</string>
+    <string name="db_dl_error">Could not download database</string>
+    
+     <string name="text_updating_db">Updating Database...</string>
+     
+     <string name="url_pci_db">http://aschillings.co.uk/download/db/device_database.db3</string>
+     <string name="sd_db_location">/data/alt236/device_asset_db/</string>
+     <string name="sd_db_name">device_database.db3</string>
+     <string name="sd_db_name_old">device_database.db3</string>
+    
+    <string name="text_copied">copied.</string>
+    <string name="text_device_offline">Device offline</string>
+	<string name="text_device_offline_instructions">The device seems to be offline.\nPlease enable either WiFi or Mobile Internet before continuing.</string>
+	
+	<string name="sd_error">SD Card Error</string>
+	<string name="sd_not_available">Cannot write to the SD card. It is either read-only or unmounted.</string>
+	
+	<string name="text_nothing_to_search_for">Nothing to search for.</string>
+	<string name="text_enter_search_parameters">Please enter some search parameters before continuing.</string>
+
+	<string name="error_could_not_open_db">Could not open database!.</string>
+
+	<string name="alert_update_db">You are about to download a copy of the Device Asset database.\nDo you want to continue?</string>
+	<string name="alert_db_not_found_title">Asset Database not found</string>
+	<string name="alert_db_not_found_instructions">Please download the Asset database by pressing "Menu->Update DB" before continuing.</string>
+	
+</resources>

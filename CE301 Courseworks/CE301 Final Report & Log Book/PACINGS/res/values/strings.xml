@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello P.A.C.I.N.G.S.!</string>
+	<string name="app_name">P.A.C.I.N.G.S.</string>
+	<string name="mapview_name">MapView</string>
+	<string name="maps_dev_key">0Hn6c8C919VqciDRSYz1-datJM147ts3vaNnkVQ</string>
+	<string name="label_search_location">Location name:</string>
+	<string name="label_select_location">Please select location type:</string>
+	<string name="label_search_btn">SEARCH</string>
+	<string name="label_back_btn">BACK</string>
+	<string name="label_location_name">Location: </string>
+	<string name="label_location_altname">Alternative name: </string>
+	<string name="label_room_result"></string>
+	<string name="sd_db_location">/data/pacings/pacings_db/</string>
+	<string name="sd_db_name">pacings_db_18.db3</string>
+	<string name="locations_types_spinner">Please select</string>
+	<string name="label_hide">HIDE MENU</string>
+	<string name="label_show">SHOW MENU</string>
+	<string-array name="locations_types_array">
+		<item>None</item>
+		<item>Room</item>
+		<item>Building</item>
+		<item>Entrance</item>
+		<item>Square</item>
+		<item>Campus</item>
+	</string-array>
+	<string name="fontsizegeneral">25sp</string>
+	<string name="lable_menu_showstart">Show Start Marker</string>
+	<string name="lable_menu_clearmap">Clear Map</string>
+</resources>

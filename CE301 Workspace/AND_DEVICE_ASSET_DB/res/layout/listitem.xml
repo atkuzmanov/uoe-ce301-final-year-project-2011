@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/result_table_layout">
+	
+	<TableRow
+		android:visibility="gone">
+		<TextView 
+			android:id="@+id/inventory_no_id" 
+			style="@style/result_data_field"/>				
+	</TableRow>
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/label_inventory_no"
+			style="@style/title_field"/>
+		<TextView 
+			android:id="@+id/inventory_no" 
+			style="@style/result_data_field"/>
+		<TextView 
+			android:text="@string/label_barcode" 
+			style="@style/title_field"/>
+		<TextView 
+			android:id="@+id/barcode" 
+			style="@style/result_data_field"/>					
+	</TableRow>	
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/label_brand"
+			style="@style/title_field"/>
+		<TextView 
+			android:id="@+id/brand" 
+			style="@style/result_data_field"/>
+		<TextView 
+			android:text="@string/label_model" 
+			style="@style/title_field"/>
+		<TextView 
+			android:id="@+id/model" 
+			style="@style/result_data_field"/>					
+	</TableRow>	
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/label_hostname" 
+			style="@style/title_field"/>
+		<TextView 
+			android:id="@+id/hostname" 
+			style="@style/result_data_field"
+			android:layout_span="3"/>			
+	</TableRow>
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/label_room_name"
+			style="@style/title_field"/>	
+		<TextView 
+			android:id="@+id/roomName" 
+			style="@style/result_data_field"
+			android:layout_span="3"/>
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,214 @@
+<XMLDiagram>
+  <TDBADiagramController Locked="0">
+    <Elements>
+      <TDBADiagramObject id="1" propertiesclass="TDiagramMetaTableProperties" objectname="android_metadata">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="50" top="30" width="200" height="35"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="2" propertiesclass="TDiagramMetaTableProperties" objectname="tblbuilding">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="710" top="130" width="200" height="192"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="3" propertiesclass="TDiagramMetaTableProperties" objectname="tblbuildingentrance">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1070" top="130" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="4" propertiesclass="TDiagramMetaTableProperties" objectname="tblcampus">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="50" top="130" width="200" height="192"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="5" propertiesclass="TDiagramMetaTableProperties" objectname="tblcampusbuilding">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="360" top="130" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="6" propertiesclass="TDiagramMetaTableProperties" objectname="tblcampussquare">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="50" top="430" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="7" propertiesclass="TDiagramMetaTableProperties" objectname="tblentrance">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1070" top="390" width="200" height="192"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="8" propertiesclass="TDiagramMetaTableProperties" objectname="tblentranceroom">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="1070" top="780" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="9" propertiesclass="TDiagramMetaTableProperties" objectname="tblroom">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="640" top="800" width="200" height="206"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="10" propertiesclass="TDiagramMetaTableProperties" objectname="tblsquare">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="370" top="450" width="200" height="192"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDBADiagramObject id="11" propertiesclass="TDiagramMetaTableProperties" objectname="tblsquarebuilding">
+        <TDiagramMetaTableProperties>
+          <Glyph>
+            <Geometry left="710" top="450" width="200" height="66"/>
+          </Glyph>
+        </TDiagramMetaTableProperties>
+      </TDBADiagramObject>
+      <TDiagramRelation id="12" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="4" destinationid="5">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="190" y="170"/>
+                <Point x="370" y="170"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="13" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="2" destinationid="5">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="720" y="170"/>
+                <Point x="480" y="190"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="14" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="2" destinationid="3">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="900" y="170"/>
+                <Point x="1080" y="170"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="15" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="3" destinationid="7">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1080" y="180"/>
+                <Point x="1080" y="430"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="16" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="11" destinationid="2">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="720" y="510"/>
+                <Point x="720" y="170"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="17" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="11" destinationid="10">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="720" y="490"/>
+                <Point x="520" y="490"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="18" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="10" destinationid="6">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="380" y="490"/>
+                <Point x="200" y="490"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="19" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="6" destinationid="4">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="60" y="470"/>
+                <Point x="60" y="170"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="20" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="8" destinationid="7">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="1080" y="820"/>
+                <Point x="1080" y="430"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+      <TDiagramRelation id="21" propertiesclass="TDiagramRelationProperties">
+        <TDiagramRelationProperties sourceid="9" destinationid="8">
+          <Relation>
+            <Geometry left="0" top="0" width="0" height="0"/>
+            <Glyph>
+              <Geometry>
+                <Point x="650" y="840"/>
+                <Point x="1080" y="840"/>
+              </Geometry>
+            </Glyph>
+          </Relation>
+        </TDiagramRelationProperties>
+      </TDiagramRelation>
+    </Elements>
+    <Surface zoom="62" scrollx="0" scrolly="0"/>
+  </TDBADiagramController>
+</XMLDiagram>

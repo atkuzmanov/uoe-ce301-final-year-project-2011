@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/result_table_layout">
+	<TableRow android:visibility="gone">
+		<TextView android:id="@+id/room_id" style="@style/result_data_field" />
+	</TableRow>
+	<TableRow android:layout_height="fill_parent">
+		<TextView android:text="@string/label_location_name" style="@style/result_title_field" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/room_name" style="@style/result_data_field" />
+	</TableRow>
+	<TableRow android:layout_height="fill_parent">
+		<TextView android:text="@string/label_location_altname"
+			style="@style/result_title_field" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/building_name" style="@style/result_data_field" />
+	</TableRow>
+</TableLayout>

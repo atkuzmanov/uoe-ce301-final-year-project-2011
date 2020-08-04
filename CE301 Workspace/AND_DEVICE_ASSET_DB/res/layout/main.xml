@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TableLayout 
+		android:id="@+id/main_table_input" 
+		style="@style/default_table_style">
+		<TableRow>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_inventory_no"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editInventoryNo"/>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_barcode"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editBarcode"/>
+		</TableRow>
+				<TableRow>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_brand"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editBrand"/>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_model"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editModel"/>
+		</TableRow>
+		<TableRow>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_hostname"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editHostname" />
+		</TableRow>
+		<TableRow>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_mac_address"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editMacAddress"/>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_ip_address"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editIpAddress"/>
+		</TableRow>			
+		<TableRow>
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_room_name"/>
+			<EditText 
+				style="@style/data_text_edit"
+				android:id="@+id/editRoomName" />
+		</TableRow>	
+	</TableLayout>
+
+	
+	<TableLayout
+		android:id="@+id/main_table_buttons" 
+		style="@style/default_table_style_with_strech">>
+		<TableRow>
+			<Button
+				android:layout_height="40dip"
+				android:text="@string/label_search"
+				android:id="@+id/btnSearch"/>
+			<Button
+				android:layout_height="40dip"
+				android:text="@string/label_clear"
+				android:id="@+id/btnClear"/>
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout
+		style="@style/default_table_style_with_strech">
+		<TableRow>
+			<Button
+				android:layout_height="40dip"
+				android:text="@string/label_hide"
+				android:id="@+id/btnHideShow"/>
+		</TableRow>		
+	</TableLayout>
+		
+	<TableLayout 
+		style="@style/default_table_style">
+		<TableRow> 
+			<TextView 
+				style="@style/title_field"
+				android:text="@string/label_found" />
+			<TextView 
+				style="@style/result_data_field"
+				android:id="@+id/tv_results"/>	
+		</TableRow>	
+	</TableLayout>
+	
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<ListView 
+			android:id="@+id/main_list"
+			android:divider="@color/table_background"
+			android:dividerHeight="3dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:background="@color/black"
+			android:cacheColorHint="#00000000"/>
+	</LinearLayout>
+</LinearLayout>

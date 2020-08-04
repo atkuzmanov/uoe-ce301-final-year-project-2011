@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="default_text_color">#FFEAEAEA</color>
+
+	<color name="alt_row_color">#FF222222</color>
+
+	<color name="table_background">#40404F</color>
+
+	<color name="list_text">@color/default_text_color</color>
+
+	<color name="black">#000000</color>
+
+	<color name="white">#FFFFFF</color>
+
+	<color name="blue">#1e90ff</color>
+
+	<color name="green">#32cd32</color>
+
+	<color name="red">#FF0000</color>
+
+	<color name="purlpe">#993399</color>
+
+	<color name="redish">#580000</color>
+
+	<color name="greenish">#669900</color>
+
+	<color name="blueish">#0066FF</color>
+
+	<color name="yellowish">#FFFF66</color>
+
+	<color name="ish">#660000</color>
+
+	<color name="unselected_tab_color">#FFEAEAEA</color>
+
+	<color name="selected_tab_color">#FF222222</color>
+</resources>

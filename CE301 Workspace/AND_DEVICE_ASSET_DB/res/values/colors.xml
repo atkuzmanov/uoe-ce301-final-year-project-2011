@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="default_text_color">#FFEAEAEA</color>
+    
+    <color name="alt_row_color">#FF222222</color>
+    
+    <color name="black">#000000</color>
+
+    <color name="table_background">#40404F</color>
+    
+    <color name="list_text">@color/default_text_color</color>
+    
+    
+    <color name="unselected_tab_color">#FFEAEAEA</color>
+	<color name="selected_tab_color">#FF222222</color>
+</resources>

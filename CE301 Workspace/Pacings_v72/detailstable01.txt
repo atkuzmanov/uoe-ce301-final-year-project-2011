@@ -1,0 +1,67 @@
+						<LinearLayout android:id="@+id/main_ll_get"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:fillViewport="true">
+
+					<!--DETAILS TABLE-->
+					<TableLayout android:id="@+id/detailsTable"
+						style="@style/asset_info_table_layout">
+
+						<TableRow android:visibility="gone">
+							<TextView android:text="Location id: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_id_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow>
+							<TextView android:text="Location: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_name_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow>
+							<TextView android:text="Location Alternative name: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_altname_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+
+						<TableRow>
+							<TextView android:text="Location Navigation: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_info_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow>
+							<TextView android:text="Location Notes: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_notes_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow>
+							<TextView android:text="Location AV Type: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_avtype_dtbl" style="@style/result_data_field" />
+						</TableRow>
+						<TableRow>
+							<TextView android:text="Location Disabled Access: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_disabledaccess_dtbl"
+								style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow android:visibility="gone">
+							<TextView android:text="Location latit: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_latit_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+						<TableRow android:visibility="gone">
+							<TextView android:text="Location longtit: "
+								android:layout_height="40dip" style="@style/title_field" />
+							<TextView android:id="@+id/location_longtit_dtbl" style="@style/result_data_field" />
+						</TableRow>
+
+					</TableLayout>
+
+				</LinearLayout>
+

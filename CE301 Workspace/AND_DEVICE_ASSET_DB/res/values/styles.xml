@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+
+    <style name="title_field" parent="@android:style/TextAppearance.Small">
+    	<item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+            
+    <style name="data_text_edit">
+    	<item name="android:maxWidth">0sp</item>
+    	<item name="android:layout_height">40dip</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_width">wrap_content</item>
+ 		<item name="android:inputType">textVisiblePassword</item>
+    </style>
+    
+    <style name="default_table_style">
+        <item name="android:background">@color/table_background</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+		<!--<item name="android:stretchColumns">*</item>-->
+    </style>
+    
+    <style name="default_table_style_with_strech">
+        <item name="android:background">@color/table_background</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+   		<item name="android:stretchColumns">*</item>
+    </style>   
+    
+  <!--    listitem -->
+   
+    <style name="asset_info_table_layout">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:shrinkColumns">1</item>
+    </style>
+     
+<!--    listitem -->
+    
+    <style name="result_table_layout">
+        <item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style> 
+    
+    <style name="result_title_field" parent="@style/title_field">
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="result_data_field" parent="@android:style/TextAppearance.Small">
+    	<item name="android:typeface">monospace</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">1dip</item>
+        <item name="android:paddingLeft">1dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>   
+</resources>

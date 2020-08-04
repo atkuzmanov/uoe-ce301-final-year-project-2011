@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/main_root">
+
+	<LinearLayout 
+		android:id="@+id/main_top_bit"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true">
+		<TableLayout 
+			android:id="@+id/main_table_ip_info" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+					
+			<TableRow>
+				<ImageView
+					android:id="@+id/image_rssi"
+					android:scaleType="fitXY"
+					android:minHeight="130dip"
+					android:minWidth="130dip"
+					android:maxHeight="130dip"
+					android:maxWidth="130dip"
+					android:src="@drawable/no_image"
+				/>
+			</TableRow>		
+		</TableLayout>
+	</LinearLayout>
+
+<!-- == Tabs? == -->
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@android:id/tabhost"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/main_top_bit"
+	   	android:layout_above="@+id/main_bottom_bit">
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent">
+				<ScrollView 
+					android:id="@+id/main_scrollview_cell_info"
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:fillViewport="true">
+			
+					<TableLayout android:id="@+id/main_table_cell_info"
+						style="@style/asset_info_table_layout">
+					</TableLayout>
+					
+				</ScrollView>
+				<ScrollView 
+					android:id="@+id/main_scrollview_location_info"
+					android:layout_width="fill_parent" 
+					android:layout_height="fill_parent"
+					android:fillViewport="true">			
+					<TableLayout 
+						android:id="@+id/main_table_location_info"
+						style="@style/asset_info_table_layout">
+					</TableLayout>
+				</ScrollView>
+	        </FrameLayout>
+	    </LinearLayout>
+	</TabHost>
+	
+	<LinearLayout 
+		android:id="@+id/main_bottom_bit"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<TableLayout 
+			android:id="@+id/main_table_ip_info" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:stretchColumns="*">
+			
+		</TableLayout>
+	</LinearLayout>	
+</RelativeLayout> 
